@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Conference Registration</title>
+    <style>
+#pinformation, #cinformation{
+background-color: burlywood;
+}
+.pinformation,.cinformation{
+    background-color:antiquewhite;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Please fill in the form</h1>
+    <form action="">
+        <fieldset class="pinformation">   
+            <legend id="pinformation">Personal information</legend>
+            <label for="fname">First Name:</label><br>
+            <input type="text" name: "fname"></input><br>
+            <label for="sname">Second Name:</label><br>
+            <input type="text" name: "sname"></input><br>
+            <label for="sname">Email</label><br>
+            <input type="email"name :"email"></input><br>
+            <label for="phonenumber">Work phone</label><br>
+            <input type="number"></input><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="male" value="male">Male</input><br>
+            <input type="radio" name="female" value="male">Female</input><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br>
+        </fieldset>
+        <fieldset class="cinformation">
+            <form action="">
+                <legend id="cinformation">Company information</legend>
+                <label for="cname">Company name:</label><br>
+            <input type="text" name: "cname"></input><br>
+            <label for="caddress">Company address</label><br>
+            <input type="text" name: "caddress"></input><br>
+            <label for="city">City</label><br>
+            <input type="text" name: "city"></input><br>
+            <label for="state">State/province</label><br>
+            <input type="text" name: "state"></input><br>
+            <label for="website">Company website</label><br>
+            <input type="text" name: "cwebsite"></input><br>
+            
+            </form>
+        </fieldset>
+     
+    </form>
+</body>
+</html>
